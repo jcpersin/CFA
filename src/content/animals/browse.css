@@ -1,0 +1,26 @@
+.animal_ctr {
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.animal_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+
+.animal_img:hover {
+    -webkit-box-shadow: 0px 0px 21px 8px rgba(13,10,11,0.53);
+    -moz-box-shadow: 0px 0px 21px 8px rgba(13,10,11,0.53);
+    box-shadow: 0px 0px 21px 8px rgba(13,10,11,0.53)
+}
+
+.animal_list_ctr {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    text-align: center;
+}
